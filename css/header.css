@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #ffe839;
+}
+
+.header-wrapper .header__title,
+.header-wrapper .header__icon,
+.header-wrapper .header__back-btn {
+  color: rgb(34, 139, 34);
+}
+.header .header__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.header .header__icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 30px;
+}
